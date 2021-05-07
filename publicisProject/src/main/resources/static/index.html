@@ -1,0 +1,34 @@
+
+<html>
+<head>
+
+<H1>Welcome to Weather Report of India</H1>
+
+</head>
+<body bgcolor="#FFFFFF" >
+<form name="City">
+<table width="800" border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<select name="city_choice" onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);" size="1">
+<option value="no_city" selected="">Select City&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</option>
+<option value="http://localhost:8080/weatherReport/Mumbai">Mumbai
+</option>
+<option value="http://localhost:8080/weatherReport/Pune">Pune
+</option>
+<option value="http://localhost:8080/weatherReport/Bangalore">Bangalore
+</option>
+<option value="http://localhost:8080/weatherReport/Delhi">Delhi
+</option>
+<option value="http://localhost:8080/weatherReport/Kolkata">Kolkata
+</option>
+<option value="http://localhost:8080/weatherReport/Chennai">Chennai
+</option>
+</select>
+</tbody>
+</table>
+
+</form>
+
+
+</body>
+</html>
