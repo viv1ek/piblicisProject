@@ -61,7 +61,7 @@
 							<goal>push</goal>
 						</goals>
 					</execution>
-				</executi
+				</executions>
 		</plugins>
 		
 		<finalName>publicisproject</finalName>
